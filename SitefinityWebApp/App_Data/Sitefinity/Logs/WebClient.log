@@ -1,0 +1,84 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 1:33:41 PM
+
+Message: login_required
+ErrorResponse: login_required
+    at new t (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2682436)
+    at e._processSigninParams (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2707837)
+    at e.validateSigninResponse (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2705661)
+    at https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2676563
+    at e.invoke (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:7954)
+    at Object.onInvoke (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:393614)
+    at e.invoke (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:7894)
+    at t.run (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:3127)
+    at https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:14388
+    at e.invokeTask (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:8638)
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754937970788456
+
+ProcessId: 9032
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:26244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 1:49:11 PM
+
+Message: login_required
+ErrorResponse: login_required
+    at new t (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2682436)
+    at e._processSigninParams (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2707837)
+    at e.validateSigninResponse (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2705661)
+    at https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:2676563
+    at e.invoke (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:7954)
+    at Object.onInvoke (https://localhost:44387/adminapp/vendor.a787cfdb273769cadfb5.js:2:393614)
+    at e.invoke (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:7894)
+    at t.run (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:3127)
+    at https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:14388
+    at e.invokeTask (https://localhost:44387/adminapp/polyfills.672387b3bb3becd1293b.js:2:8638)
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754960034198853
+
+ProcessId: 11204
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:30320
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,742 @@
+----------------------------------------
+ActivityId: 28b57043-9c46-43af-a0d4-2cb877c2ed7d
+
+Timestamp: 10/12/2021 11:35:06 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785551651007289
+
+ProcessId: 23932
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18092
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 90a1bf50-c37d-4e58-b8e1-e5f80528fa71
+
+Timestamp: 10/12/2021 11:38:45 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785554037615594
+
+ProcessId: 3932
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24468
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/12/2021 11:42:07 PM
+
+Message: Timestamp: 10/12/2021 11:42:07 PM
+Message: Telerik.OpenAccess.Exceptions.DataStoreException: Error executing query: Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception: The semaphore timeout period has expired
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[type_name] AS COL2 FROM [sf_ocd_typs] a ORDER BY COL1  Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception: The semaphore timeout period has expired
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute() ---> Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception: The semaphore timeout period has expired
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+   --- End of inner exception stack trace ---
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.getNextQueryResult(QueryResultWrapper aQrs, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at OpenAccessRuntime.ListEnumerator.MoveNext()
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Telerik.Sitefinity.Web.OutputCache.OutputCacheWorker.SupportedTypes.get_PersistedTypes()
+   at Telerik.Sitefinity.Web.OutputCache.OutputCacheWorker.SupportedTypes.Filter(IEnumerable`1 items)
+   at Telerik.Sitefinity.Web.OutputCache.OutputCacheWorker.ExpireCacheItem(IEnumerable`1 items)
+   at Telerik.Sitefinity.Data.CacheDependency.InvokeCacheDependencyNotify(IEnumerable`1 items)
+   at Telerik.Sitefinity.Data.CacheDependency.Notify(IList`1 items, String connection)
+   at Telerik.Sitefinity.Configuration.Data.OpenAccessXmlConfigStorageProvider.SaveElement(IXmlConfigItem configElement)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.SaveXml(XmlDocument xml, String relativePath, SaveOptions options)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.SaveElement(ConfigElement config, Func`2 getXmlElement, SaveOptions options, String relativePath)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.SaveElement(ConfigElement config, ConfigElement defaultConfig, SaveOptions options)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.SaveSectionAuto(ConfigSection section, Boolean isDatabaseMode)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.SaveSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.ConfigManager.SaveSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.Config.UpdateSection[TSection](Action`1 update)
+   at pavliks.PortalConnector.Initialization.CommonMethods.AddWidgets(SiteInitializer initializer) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Initialization\CommonMethods.cs:line 237
+   at pavliks.PortalConnector.Initialization.Initializers.WidgetsInitializer.Initialize() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Initialization\Initializers\WidgetsInstaller.cs:line 19
+   at pavliks.PortalConnector.PortalConnectorInstaller.Bootstrapper_Initialized(IEnumerable`1 initializers) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\PortalConnectorInstaller.cs:line 36
+   at pavliks.PortalConnector.PortalConnectorModule.Bootstrapper_Bootstrapped(Object sender, EventArgs e) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\PortalConnectorModule.cs:line 121
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.OnBootstrapped(Object sender, EventArgs args)
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: CGM-CIO
+App Domain: /LM/W3SVC/2/ROOT-1-132785556077351668
+ProcessId: 15420
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:20376
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785556077351668
+
+ProcessId: 15420
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6a4cf103-a1b0-4147-8f9a-48ca6db8fe46
+
+Timestamp: 10/12/2021 11:45:09 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785558019504866
+
+ProcessId: 10744
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:33940
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 3aaac2b8-edb1-44b2-92a3-8dd10d3a39a8
+
+Timestamp: 10/12/2021 11:54:15 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785563788018096
+
+ProcessId: 26532
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9964
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6f1b6227-1e90-4df2-bcb6-72852e4963b2
+
+Timestamp: 10/13/2021 12:16:34 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785577203134997
+
+ProcessId: 9588
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15824
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6f1b6227-1e90-4df2-bcb6-72852e4963b2
+
+Timestamp: 10/13/2021 12:18:54 AM
+
+Message: HandlingInstanceID: 1369cf64-03dd-4b5f-a821-b2c907dfb263
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+10/12/2021 20:18:54
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Licensing.Model.UserActivity GetUserActivity(System.Guid, System.String)
+HResult : -2146232828
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessUserActivityProvider_f8ffdad0239a4bf2abbe68f01db002cb.GetUserActivity(Guid userId, String providerName)
+   at Telerik.Sitefinity.Security.SecurityManager.UpdateUserActivity(Guid userId, String providerName, DateTime lastActivityDate)
+   at Telerik.Sitefinity.Security.SecurityManager.UpdateUserActivity(UserActivityRecord record)
+   at Telerik.Sitefinity.Security.UserActivityManager.Refresh(String removedKey, Object expiredValue, CacheItemRemovedReason removalReason)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 10/13/2021 12:18:54 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132785577203134997
+ThreadIdentity : jrrobbins@chog.org
+WindowsIdentity : CGM\jrrobbins
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Error executing query: Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception: The semaphore timeout period has expired
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT  TOP(??T) a.[user_id] AS COL1, a.[is_backend_user] AS COL2, a.[is_logged_in] AS COL3, a.[last_activity_date] AS COL4, a.[last_login_date] AS COL5, a.[login_ip] AS COL6, a.[provider_name] AS COL7, a.[token_id] AS COL8 FROM [sf_lic_user_activity] a WHERE a.[user_id] = ?                                       AND a.[provider_name] = ?                                        Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception: The semaphore timeout period has expired
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception: The semaphore timeout period has expired
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+	Reason : Runtime
+	CanRetry : False
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.executeQueryAll(ApplicationContext context, ImmutableQueryDetails query, CompiledQuery compiledQuery, QueryParameters parameters, Int32 skip, Int32 take)
+	   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.getAllQueryResults(CompiledQuery cq, QueryParameters parameters, Int32 skip, Int32 take)
+	   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Resolve()
+	   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+	   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+	   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+	   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+	   at OpenAccessRuntime.ListEnumerator.MoveNext()
+	   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQuerySingle[TResult,T](ChainedContext context, Expression expression, QueryableCategory before, Int32& found, Int32 elemAt, Boolean single, Boolean diffType)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Connection has been closed.
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 2004344493
+		ArrayBindIndex : -1
+		Number : 2004344493
+		ObjectId : 
+		Description : Connection has been closed.
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+		   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+		   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+			Inner Exception
+			---------------
+			Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+			Source : .Net SqlClient Data Provider
+			Help link : 
+			Errors : System.Data.SqlClient.SqlErrorCollection
+			ClientConnectionId : a53c0c7c-7f6d-45e5-ab12-88f4ff6347ff
+			Class : 20
+			LineNumber : 0
+			Number : 121
+			Procedure : 
+			Server : tcp:chogconnect.database.windows.net,1433
+			State : 0
+			ErrorCode : -2146232060
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+			HResult : -2146232060
+			Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+			   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+			   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+			   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+			   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+			   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+			   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+			   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+			   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+			   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+			   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+			   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+			   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+			   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+
+				Inner Exception
+				---------------
+				Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+				Message : The semaphore timeout period has expired
+				Source : 
+				Help link : 
+				NativeErrorCode : 121
+				ErrorCode : -2147467259
+				Data : System.Collections.ListDictionaryInternal
+				TargetSite : 
+				HResult : -2147467259
+				Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785577203134997
+
+ProcessId: 9588
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13968
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: fe47e936-8b30-42e5-b11a-ba8652e34238
+
+Timestamp: 10/13/2021 12:40:35 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785591616420244
+
+ProcessId: 28684
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:32140
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 341312ef-571c-40f5-92a0-d21268338981
+
+Timestamp: 10/13/2021 1:00:11 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785603132549471
+
+ProcessId: 12060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18368
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/13/2021 1:12:43 AM
+
+Message: HandlingInstanceID: 931e245a-aebc-4334-936f-3f815854f971
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+10/12/2021 21:12:43
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : No row for Telerik.Sitefinity.Pages.Model.TemplatePresentation ('sf_presentation_data') GenericOID@c9a88227 TemplatePresentation id=7cfab3c3-705a-43c3-897a-db78a8a70ad9
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : No row for Telerik.Sitefinity.Pages.Model.TemplatePresentation ('sf_presentation_data') GenericOID@c9a88227 TemplatePresentation id=7cfab3c3-705a-43c3-897a-db78a8a70ad9
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean DiscardTemplateDraft(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DiscardTemplateDraft(String draftId)
+   at SyncInvokeDiscardTemplateDraft(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 10/13/2021 1:12:43 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132785603132549471
+ThreadIdentity : jrrobbins@chog.org
+WindowsIdentity : CGM\jrrobbins
+Requested URL : https://localhost:44387/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/d263bad7-3cb9-4673-a3d1-e0dad36a7c0a/?package=Connect
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.Exceptions.NoSuchObjectException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : No row for Telerik.Sitefinity.Pages.Model.TemplatePresentation ('sf_presentation_data') GenericOID@c9a88227 TemplatePresentation id=7cfab3c3-705a-43c3-897a-db78a8a70ad9
+	Source : Unity_ILEmit_DynamicClasses
+	Help link : 
+	InnerExceptions : 
+	FailedObject : 
+	BackendError : 
+	Reason : NoSuchObject
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void CommitTransaction()
+	HResult : -2146233088
+	Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_6110636ed8804d188000cf262fbc9934.CommitTransaction()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges(String eventOrigin)
+	   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges()
+	   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DiscardTemplateDraft(String draftId)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785603132549471
+
+ProcessId: 12060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20284
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a88323ed-a15e-4881-bcbe-9e8e60cade12
+
+Timestamp: 10/13/2021 2:59:46 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132786107445366378
+
+ProcessId: 1424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10180
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 22e117d3-f197-413e-beee-aeca50b743ab
+
+Timestamp: 10/13/2021 6:05:06 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132786218444531508
+
+ProcessId: 31488
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3860
+
+Extended Properties: 
+----------------------------------------

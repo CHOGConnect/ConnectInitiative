@@ -1,0 +1,1231 @@
+----------------------------------------
+ActivityId: 76858941-1611-4113-90f9-07cba95eeecd
+
+Timestamp: 9/9/2021 2:39:18 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756719226820770
+
+ProcessId: 31620
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:20:27 PM
+
+Message: HandlingInstanceID: 5f1e8b49-49f6-4605-bb45-49bc6a0e2721
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+09/09/2021 14:20:27
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
+   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetAndUpgradeMetadataDatabase(IConnectionStringSettings connectionSettings, OpenAccessConnection oaConnection, MetadataContainer metadataContainer, String appName, String moduleName, String& connString, Int32& previousBuild, Boolean isSecondCall)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:20:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28064
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:20:42 PM
+
+Message: HandlingInstanceID: cf9aa2d8-b1e8-4614-97df-49294b68431a
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/09/2021 14:20:42
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Unable to reach database server on host ''.
+Error Details:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : HostnameUnresolvable
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_1913a42827824e09a3147fa4171bebc3.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:20:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28064
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:21:41 PM
+
+Message: HandlingInstanceID: 431b7321-28cc-45f4-a3a3-1621d5405ff7
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+09/09/2021 14:21:41
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
+   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetAndUpgradeMetadataDatabase(IConnectionStringSettings connectionSettings, OpenAccessConnection oaConnection, MetadataContainer metadataContainer, String appName, String moduleName, String& connString, Int32& previousBuild, Boolean isSecondCall)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:21:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28064
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:21:56 PM
+
+Message: HandlingInstanceID: 0dd0e500-3944-4e0b-994b-68493146e7b5
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/09/2021 14:21:56
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Unable to reach database server on host ''.
+Error Details:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : HostnameUnresolvable
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_1913a42827824e09a3147fa4171bebc3.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:21:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28064
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:21:56 PM
+
+Message: Timestamp: 9/9/2021 6:21:56 PM
+Message: Telerik.OpenAccess.Exceptions.DataStoreException: Unable to reach database server on host ''.
+Error Details:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+ ---> Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+   --- End of inner exception stack trace ---
+   at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_1913a42827824e09a3147fa4171bebc3.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.ResolveProvider(String providerName, String dataSourceName)
+   at Telerik.Sitefinity.Data.ManagerBase`1.SetProvider(String providerName, String transactionName)
+   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+   at Telerik.Sitefinity.Data.Metadata.MetadataManager..ctor()
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: CGM-CIO
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+ProcessId: 17472
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:28064
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28064
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:22:55 PM
+
+Message: HandlingInstanceID: 209b1af3-208d-4424-8240-2530df1c06cb
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+09/09/2021 14:22:55
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
+   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetAndUpgradeMetadataDatabase(IConnectionStringSettings connectionSettings, OpenAccessConnection oaConnection, MetadataContainer metadataContainer, String appName, String moduleName, String& connString, Int32& previousBuild, Boolean isSecondCall)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:22:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2508
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:23:09 PM
+
+Message: HandlingInstanceID: 02182e57-bac0-4fe5-8aee-1022fec5d018
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/09/2021 14:23:09
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Unable to reach database server on host ''.
+Error Details:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : HostnameUnresolvable
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_1913a42827824e09a3147fa4171bebc3.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:23:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2508
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:24:08 PM
+
+Message: HandlingInstanceID: 12c37963-bd69-41e4-931e-fdbc6f5da529
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+09/09/2021 14:24:08
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
+   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, OpenAccessConnection connection)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetAndUpgradeMetadataDatabase(IConnectionStringSettings connectionSettings, OpenAccessConnection oaConnection, MetadataContainer metadataContainer, String appName, String moduleName, String& connString, Int32& previousBuild, Boolean isSecondCall)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:24:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2508
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/9/2021 6:24:23 PM
+
+Message: HandlingInstanceID: 6102fd03-9448-4f71-9b2c-30f746349597
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/09/2021 14:24:23
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Unable to reach database server on host ''.
+Error Details:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.) ---> System.ComponentModel.Win32Exception: No such host is known
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : HostnameUnresolvable
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_1913a42827824e09a3147fa4171bebc3.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : CGM-CIO
+TimeStamp : 9/9/2021 6:24:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7629.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132756851478160152
+ThreadIdentity : 
+WindowsIdentity : CGM\jrrobbins
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 11001
+	ArrayBindIndex : -1
+	Number : 11001
+	ObjectId : 
+	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 00000000-0000-0000-0000-000000000000
+		Class : 20
+		LineNumber : 0
+		Number : 11001
+		Procedure : 
+		Server : 
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No such host is known
+			Source : 
+			Help link : 
+			NativeErrorCode : 11001
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756851478160152
+
+ProcessId: 17472
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2508
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e6a7d723-21aa-4dba-aa21-d03451672c63
+
+Timestamp: 9/9/2021 6:39:59 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132756862815554749
+
+ProcessId: 31860
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21436
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,31 @@
+----------------------------------------
+ActivityId: 2790bfd5-e805-46b0-8232-9c0588aed9b5
+
+Timestamp: 9/27/2021 6:11:59 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132772398774580147
+
+ProcessId: 13648
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10100
+
+Extended Properties: 
+----------------------------------------

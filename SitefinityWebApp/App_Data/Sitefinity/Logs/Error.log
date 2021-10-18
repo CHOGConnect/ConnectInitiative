@@ -1,0 +1,372 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:23:15 PM
+
+Message: Attempt to load \SitefinityWebApp.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790585574736212
+
+ProcessId: 13844
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14664
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:23:15 PM
+
+Message: Attempt to load \SitefinityWebApp.ResourcePackages.Bootstrap4.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790585574736212
+
+ProcessId: 13844
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6552
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:23:15 PM
+
+Message: Attempt to load \SitefinityWebApp.ResourcePackages.Connect.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790585574736212
+
+ProcessId: 13844
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:19576
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 363e697e-c1aa-4b78-ac74-c790e7a15b20
+
+Timestamp: 10/18/2021 7:23:41 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790585574736212
+
+ProcessId: 13844
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25772
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:25:55 PM
+
+Message: Attempt to load \SitefinityWebApp.ResourcePackages.Connect.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790587273873231
+
+ProcessId: 20296
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6772
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:25:55 PM
+
+Message: Attempt to load \SitefinityWebApp.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790587273873231
+
+ProcessId: 20296
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:27348
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:25:55 PM
+
+Message: Attempt to load \SitefinityWebApp.ResourcePackages.Bootstrap4.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790587273873231
+
+ProcessId: 20296
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: fd3741a9-7dd4-400b-be30-01945fcef8b2
+
+Timestamp: 10/18/2021 7:26:10 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790587273873231
+
+ProcessId: 20296
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23180
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:30:56 PM
+
+Message: Attempt to load \SitefinityWebApp.ResourcePackages.Bootstrap4.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790590228718432
+
+ProcessId: 12576
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:27492
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:30:56 PM
+
+Message: Attempt to load \SitefinityWebApp.ResourcePackages.Connect.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790590228718432
+
+ProcessId: 12576
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3256
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/18/2021 7:30:56 PM
+
+Message: Attempt to load \SitefinityWebApp.dll failed. Check if the assembly is present in the bin
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790590228718432
+
+ProcessId: 12576
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31516
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e12bd2f0-aa16-4820-807e-0d382b43ce38
+
+Timestamp: 10/18/2021 7:31:10 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132790590228718432
+
+ProcessId: 12576
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16356
+
+Extended Properties: 
+----------------------------------------

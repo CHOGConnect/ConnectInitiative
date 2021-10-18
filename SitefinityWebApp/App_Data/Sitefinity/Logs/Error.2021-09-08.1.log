@@ -1,0 +1,2003 @@
+----------------------------------------
+ActivityId: 9e4dbe16-d064-4ae1-aa3a-741849a74f77
+
+Timestamp: 9/7/2021 1:32:23 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754937970788456
+
+ProcessId: 9032
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6716
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7cf90879-15f5-487e-bd86-bcdc20671854
+
+Timestamp: 9/7/2021 1:33:43 PM
+
+Message: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SecurityTokenServiceMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754937970788456
+
+ProcessId: 9032
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6716
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c94334d5-1654-4d0e-a14d-d50bb36b2a3a
+
+Timestamp: 9/7/2021 1:47:36 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754960034198853
+
+ProcessId: 11204
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:30308
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7cef2e74-9e09-488b-bc7e-17294ddec84b
+
+Timestamp: 9/7/2021 1:53:58 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754963933864269
+
+ProcessId: 15572
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 2:09:45 PM
+
+Message: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass0_0.<GetCrmConnectionConfigData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 48
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754963933864269
+
+ProcessId: 15572
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5472
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 2:09:45 PM
+
+Message: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass2_0.<GetGeneralSettingsConfigData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 171
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754963933864269
+
+ProcessId: 15572
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 2:13:02 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754963933864269
+
+ProcessId: 15572
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18048
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 2:42:38 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132754963933864269
+
+ProcessId: 15572
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18048
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6ac44d52-407c-44ef-9bf9-32591d2bc6b6
+
+Timestamp: 9/7/2021 3:30:14 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755021780679308
+
+ProcessId: 15104
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:30:47 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755021780679308
+
+ProcessId: 15104
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:30:52 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755021780679308
+
+ProcessId: 15104
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13300
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:33:03 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755021780679308
+
+ProcessId: 15104
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:29268
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:33:38 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755021780679308
+
+ProcessId: 15104
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17252
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:34:01 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755021780679308
+
+ProcessId: 15104
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17252
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:36:18 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755021780679308
+
+ProcessId: 15104
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cc5788eb-abbd-4a90-908d-59ee162710d9
+
+Timestamp: 9/7/2021 3:45:15 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21532
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:45:35 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:30676
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:51:15 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:54:18 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:54:26 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:54:33 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 3:54:40 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 4:01:49 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24196
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 4:02:11 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4896
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 4:59:30 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:29864
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:10:19 PM
+
+Message: System.ServiceModel.Web.WebFaultException: Unauthorized
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcServiceAuthorizationHelper.CheckUser() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcServiceAuthorizationHelper.cs:line 14
+   at pavliks.PortalConnector.AdminApp.Services.AdminAppService.SaveCrmConnectionSettings(ConnectionQueryObject request) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\AdminAppService.cs:line 136
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755030857421165
+
+ProcessId: 24444
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31872
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b474dab5-0853-4283-87b3-9edf2414e2ce
+
+Timestamp: 9/7/2021 7:11:18 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28776
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:18:44 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13556
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:18:53 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:19:12 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8012
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:20:23 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8012
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:21:02 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20328
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:21:21 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12092
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:28:09 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:28:24 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:38:28 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:38:40 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/7/2021 7:42:41 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755154343387087
+
+ProcessId: 9028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14980
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4df43c0c-7441-4f49-8da0-80dec519d220
+
+Timestamp: 9/8/2021 12:28:05 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8284
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:28:35 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31688
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:37:38 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:43:47 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16968
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:43:55 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:27552
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:51:13 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16760
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:51:17 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:51:37 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:52:57 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:53:14 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755776498686639
+
+ProcessId: 19132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6d4b338e-532f-41b2-ab75-a604045d060f
+
+Timestamp: 9/8/2021 12:54:18 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3212
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:54:34 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 12:54:51 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:29344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:01:09 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:29344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:01:20 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:19076
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:01:36 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:03:25 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31720
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:03:54 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.GetClient() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 265
+   at pavliks.PortalConnector.Crm.Connection.CrmParallelConnection.get_Valid() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmParallelConnection.cs:line 76
+   at pavliks.PortalConnector.Crm.Connection.CrmConnectionManager..ctor(Boolean mockConnection, Boolean allowImpersonation, Boolean requireNewInstance) in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector\Crm\Connection\CrmConnectionManager.cs:line 242
+   at pavliks.PortalConnector.AdminApp.Services.Helpers.TpcConfigurationsManager.<>c__DisplayClass24_0.<GetEcommerceGeneralSettingsDataSourcesData>b__0() in C:\TeamCity\buildAgent\work\4662f56dcd4603e0\pavliks.PortalConnector.AdminApp\Services\Helpers\TpcConfigurationsManager.cs:line 1012
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10912
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:04:21 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22836
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:08:01 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22836
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:28:01 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16956
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:29:49 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14464
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:31:38 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14464
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/8/2021 1:32:10 PM
+
+Message: System.Exception: Exception of type 'System.Exception' was thrown.
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132755792250579141
+
+ProcessId: 912
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14464
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,2 @@
+C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\obj\Debug\SitefinityWebApp.csproj.AssemblyReference.cache
+C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\obj\Debug\SitefinityWebApp.csproj.CoreCompileInputs.cache

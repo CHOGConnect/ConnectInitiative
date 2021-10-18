@@ -1,0 +1,93 @@
+----------------------------------------
+ActivityId: c2a0f2d4-43f3-427e-a649-dc18dfff149f
+
+Timestamp: 10/13/2021 12:04:28 AM
+
+Message: Identity Server: NoSignInCookie
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785563788018096
+
+ProcessId: 26532
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9964
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 775759f4-bc10-469c-9e0e-36ea44231f9d
+
+Timestamp: 10/13/2021 12:04:31 AM
+
+Message: Identity Server: NoSignInCookie
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785563788018096
+
+ProcessId: 26532
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25328
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a8450210-c827-4451-9565-80670db03268
+
+Timestamp: 10/13/2021 12:04:33 AM
+
+Message: Identity Server: NoSignInCookie
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132785563788018096
+
+ProcessId: 26532
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31412
+
+Extended Properties: 
+----------------------------------------
