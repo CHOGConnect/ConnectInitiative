@@ -54,29 +54,29 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Lists
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 221), Tuple.Create("\"", 244)
+WriteAttribute("class", Tuple.Create(" class=\"", 215), Tuple.Create("\"", 238)
             
             #line 7 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
-, Tuple.Create(Tuple.Create("", 229), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 223), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 229), false)
+, 223), false)
 );
 
 WriteLiteral(" data-sf-role=\"lists\"");
 
-WriteLiteral(">\r\n\r\n    <div");
+WriteLiteral(">\n\n    <div");
 
 WriteLiteral(" class=\"sf-list sf-list--expandable clearfix\"");
 
-WriteLiteral(">\r\n    \r\n        <div");
+WriteLiteral(">\n    \n        <div");
 
 WriteLiteral(" class=\"sf-list-expand\"");
 
-WriteLiteral(">\r\n            <a");
+WriteLiteral(">\n            <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -93,7 +93,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n            <a");
+WriteLiteral("</a>\n            <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -112,11 +112,11 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n        </div>\r\n\r\n        <div");
+WriteLiteral("</a>\n        </div>\n\n        <div");
 
 WriteLiteral(" class=\"sf-list-item\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 17 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
@@ -150,7 +150,7 @@ WriteLiteral(" ");
             
             #line default
             #line hidden
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                    ");
 
@@ -161,7 +161,7 @@ WriteLiteral("                    ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                </h3>\r\n");
+WriteLiteral("\n                </h3>\n");
 
             
             #line 22 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
@@ -181,8 +181,8 @@ WriteLiteral("                    <div ");
             
             #line default
             #line hidden
-WriteLiteral(">\r\n                        <a\r\n                            href=\"javascript:void(" +
-"0)\"\r\n");
+WriteLiteral(">\n                        <a\n                            href=\"javascript:void(0)" +
+"\"\n");
 
 WriteLiteral("                            ");
 
@@ -193,9 +193,9 @@ WriteLiteral("                            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                            data-sf-role=\"toggleLink\"\r\n                        " +
-"    role=\"button\"\r\n                            data-toggle=\"collapse\"\r\n         " +
-"                   data-target=\"#");
+WriteLiteral("\n                            data-sf-role=\"toggleLink\"\n                          " +
+"  role=\"button\"\n                            data-toggle=\"collapse\"\n             " +
+"               data-target=\"#");
 
             
             #line 32 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
@@ -204,8 +204,8 @@ WriteLiteral("\r\n                            data-sf-role=\"toggleLink\"\r\n   
             
             #line default
             #line hidden
-WriteLiteral("\"\r\n                            aria-expanded=\"false\"\r\n                           " +
-" aria-controls=\"");
+WriteLiteral("\"\n                            aria-expanded=\"false\"\n                            a" +
+"ria-controls=\"");
 
             
             #line 34 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
@@ -214,31 +214,31 @@ WriteLiteral("\"\r\n                            aria-expanded=\"false\"\r\n     
             
             #line default
             #line hidden
-WriteLiteral("\">\r\n                            <svg");
+WriteLiteral("\">\n                            <svg");
 
 WriteLiteral(" aria-hidden=\"true\"");
 
-WriteLiteral(">\r\n                                <use");
+WriteLiteral(">\n                                <use");
 
 WriteLiteral(" class=\"sf-icon-right\"");
 
-WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 1835), Tuple.Create("\"", 1919)
-, Tuple.Create(Tuple.Create("", 1848), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#angle-right")
-, 1848), false)
+WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 1800), Tuple.Create("\"", 1884)
+, Tuple.Create(Tuple.Create("", 1813), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#angle-right")
+, 1813), false)
 );
 
-WriteLiteral("></use>\r\n                                <use");
+WriteLiteral("></use>\n                                <use");
 
 WriteLiteral(" class=\"sf-icon-down\"");
 
-WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 1986), Tuple.Create("\"", 2069)
-, Tuple.Create(Tuple.Create("", 1999), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#angle-down")
-, 1999), false)
+WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 1950), Tuple.Create("\"", 2033)
+, Tuple.Create(Tuple.Create("", 1963), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#angle-down")
+, 1963), false)
 );
 
 WriteLiteral(" style=\"display:none\"");
 
-WriteLiteral("></use>\r\n                            </svg>\r\n");
+WriteLiteral("></use>\n                            </svg>\n");
 
 WriteLiteral("                            ");
 
@@ -249,7 +249,7 @@ WriteLiteral("                            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                        </a>\r\n                        <div ");
+WriteLiteral("\n                        </a>\n                        <div ");
 
             
             #line 41 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
@@ -267,7 +267,7 @@ WriteLiteral(" style=\"display:none;\" class=\"sf-list-content collapse multi-co
             
             #line default
             #line hidden
-WriteLiteral("\'>\r\n");
+WriteLiteral("\'>\n");
 
 WriteLiteral("                            ");
 
@@ -278,7 +278,7 @@ WriteLiteral("                            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                        </div>\r\n                    </div>\r\n");
+WriteLiteral("\n                        </div>\n                    </div>\n");
 
             
             #line 45 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
@@ -288,7 +288,7 @@ WriteLiteral("\r\n                        </div>\r\n                    </div>\r
             
             #line default
             #line hidden
-WriteLiteral("        </div>\r\n    </div>\r\n</div>\r\n\r\n");
+WriteLiteral("        </div>\n    </div>\n</div>\n\n");
 
             
             #line 51 "..\..\ResourcePackages\Bootstrap4\MVC\Views\Lists\List.ExpandableList.cshtml"
@@ -297,7 +297,7 @@ Write(Html.Script(Url.WidgetContent("Mvc/Scripts/Lists/lists.js"), "bottom", thr
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
         }
     }

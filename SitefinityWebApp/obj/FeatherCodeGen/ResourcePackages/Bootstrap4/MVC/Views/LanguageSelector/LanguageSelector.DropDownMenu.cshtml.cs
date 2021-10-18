@@ -54,20 +54,20 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.LanguageSelecto
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 237), Tuple.Create("\"", 277)
+WriteAttribute("class", Tuple.Create(" class=\"", 231), Tuple.Create("\"", 271)
             
             #line 7 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
-, Tuple.Create(Tuple.Create("", 245), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 239), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 245), false)
-, Tuple.Create(Tuple.Create(" ", 260), Tuple.Create("sf-lang-selector", 261), true)
+, 239), false)
+, Tuple.Create(Tuple.Create(" ", 254), Tuple.Create("sf-lang-selector", 255), true)
 );
 
-WriteLiteral(">\r\n    <label>\r\n");
+WriteLiteral(">\n    <label>\n");
 
 WriteLiteral("        ");
 
@@ -78,7 +78,7 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 10 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
@@ -96,7 +96,7 @@ WriteLiteral("\r\n");
             #line hidden
 WriteLiteral("            ");
 
-WriteLiteral("<select>\r\n");
+WriteLiteral("<select>\n");
 
             
             #line 13 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
@@ -109,7 +109,7 @@ WriteLiteral("<select>\r\n");
             #line hidden
 WriteLiteral("            ");
 
-WriteLiteral("<select onChange=\"openLink(value)\">\r\n");
+WriteLiteral("<select onChange=\"openLink(value)\">\n");
 
             
             #line 17 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
@@ -118,7 +118,7 @@ WriteLiteral("<select onChange=\"openLink(value)\">\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 19 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
@@ -149,7 +149,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</option>\r\n");
+WriteLiteral("</option>\n");
 
             
             #line 22 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
@@ -158,7 +158,7 @@ WriteLiteral("</option>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 24 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
@@ -176,14 +176,14 @@ WriteLiteral("\r\n");
             #line hidden
 WriteLiteral("                <option");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 792), Tuple.Create("\"", 817)
+WriteAttribute("value", Tuple.Create(" value=\"", 767), Tuple.Create("\"", 792)
             
             #line 26 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
-, Tuple.Create(Tuple.Create("", 800), Tuple.Create<System.Object, System.Int32>(language.Culture
+, Tuple.Create(Tuple.Create("", 775), Tuple.Create<System.Object, System.Int32>(language.Culture
             
             #line default
             #line hidden
-, 800), false)
+, 775), false)
 );
 
 WriteLiteral(" ");
@@ -204,7 +204,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</option>\r\n");
+WriteLiteral("</option>\n");
 
             
             #line 27 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"
@@ -213,7 +213,7 @@ WriteLiteral("</option>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </select>\r\n    </label>\r\n</div>\r\n\r\n");
+WriteLiteral("        </select>\n    </label>\n</div>\n\n");
 
             
             #line 32 "..\..MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml"

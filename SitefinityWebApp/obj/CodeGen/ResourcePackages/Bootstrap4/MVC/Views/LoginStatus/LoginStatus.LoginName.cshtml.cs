@@ -54,7 +54,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.LoginStatus
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 7 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
@@ -64,25 +64,25 @@ var SignOutUrl = string.Concat(Url.Action("SignOut"),string.Format("?{0}={1}", M
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("\n\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 395), Tuple.Create("\"", 418)
+WriteAttribute("class", Tuple.Create(" class=\"", 385), Tuple.Create("\"", 408)
             
             #line 11 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 403), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 393), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 403), false)
+, 393), false)
 );
 
-WriteLiteral(">\r\n    <div");
+WriteLiteral(">\n    <div");
 
 WriteLiteral(" data-sf-role=\"sf-logged-in-view\"");
 
 WriteLiteral(" style=\"display: none\"");
 
-WriteLiteral(">\r\n        <span>");
+WriteLiteral(">\n        <span>");
 
             
             #line 13 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
@@ -91,32 +91,32 @@ WriteLiteral(">\r\n        <span>");
             
             #line default
             #line hidden
-WriteLiteral(" </span>\r\n        <a");
+WriteLiteral(" </span>\n        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 548), Tuple.Create("\"", 585)
+WriteAttribute("href", Tuple.Create(" href=\"", 535), Tuple.Create("\"", 572)
             
             #line 14 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 555), Tuple.Create<System.Object, System.Int32>(Model.ProfilePageUrl ?? "#"
+, Tuple.Create(Tuple.Create("", 542), Tuple.Create<System.Object, System.Int32>(Model.ProfilePageUrl ?? "#"
             
             #line default
             #line hidden
-, 555), false)
+, 542), false)
 );
 
 WriteLiteral(" data-sf-role=\"sf-logged-in-name\"");
 
 WriteLiteral(" class=\"mr-2\"");
 
-WriteLiteral("></a>\r\n        <a");
+WriteLiteral("></a>\n        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 649), Tuple.Create("\"", 667)
+WriteAttribute("href", Tuple.Create(" href=\"", 635), Tuple.Create("\"", 653)
             
             #line 15 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 656), Tuple.Create<System.Object, System.Int32>(SignOutUrl
+, Tuple.Create(Tuple.Create("", 642), Tuple.Create<System.Object, System.Int32>(SignOutUrl
             
             #line default
             #line hidden
-, 656), false)
+, 642), false)
 );
 
 WriteLiteral(">");
@@ -128,22 +128,22 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n    </div>\r\n\r\n    <div");
+WriteLiteral("</a>\n    </div>\n\n    <div");
 
 WriteLiteral(" data-sf-role=\"sf-logged-out-view\"");
 
 WriteLiteral(" style=\"display: none\"");
 
-WriteLiteral(">\r\n        <a");
+WriteLiteral(">\n        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 790), Tuple.Create("\"", 825)
+WriteAttribute("href", Tuple.Create(" href=\"", 772), Tuple.Create("\"", 807)
             
             #line 19 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 797), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl ?? "#"
+, Tuple.Create(Tuple.Create("", 779), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl ?? "#"
             
             #line default
             #line hidden
-, 797), false)
+, 779), false)
 );
 
 WriteLiteral(" class=\"mr-2\"");
@@ -157,16 +157,16 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n        <a");
+WriteLiteral("</a>\n        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 879), Tuple.Create("\"", 921)
+WriteAttribute("href", Tuple.Create(" href=\"", 860), Tuple.Create("\"", 902)
             
             #line 20 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 886), Tuple.Create<System.Object, System.Int32>(Model.RegistrationPageUrl ?? "#"
+, Tuple.Create(Tuple.Create("", 867), Tuple.Create<System.Object, System.Int32>(Model.RegistrationPageUrl ?? "#"
             
             #line default
             #line hidden
-, 886), false)
+, 867), false)
 );
 
 WriteLiteral(">");
@@ -178,71 +178,71 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n    </div>\r\n</div>\r\n\r\n<input");
+WriteLiteral("</a>\n    </div>\n</div>\n\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-status-json-endpoint-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1043), Tuple.Create("\"", 1074)
+WriteAttribute("value", Tuple.Create(" value=\"", 1020), Tuple.Create("\"", 1051)
             
             #line 24 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 1051), Tuple.Create<System.Object, System.Int32>(Model.StatusServiceUrl
+, Tuple.Create(Tuple.Create("", 1028), Tuple.Create<System.Object, System.Int32>(Model.StatusServiceUrl
             
             #line default
             #line hidden
-, 1051), false)
+, 1028), false)
 );
 
-WriteLiteral("/>\r\n<input");
+WriteLiteral("/>\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-logout-redirect-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1137), Tuple.Create("\"", 1165)
+WriteAttribute("value", Tuple.Create(" value=\"", 1113), Tuple.Create("\"", 1141)
             
             #line 25 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 1145), Tuple.Create<System.Object, System.Int32>(Model.LogoutPageUrl
+, Tuple.Create(Tuple.Create("", 1121), Tuple.Create<System.Object, System.Int32>(Model.LogoutPageUrl
             
             #line default
             #line hidden
-, 1145), false)
+, 1121), false)
 );
 
-WriteLiteral("/>\r\n<input");
+WriteLiteral("/>\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-is-design-mode-value\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1229), Tuple.Create("\"", 1269)
+WriteAttribute("value", Tuple.Create(" value=\"", 1204), Tuple.Create("\"", 1244)
             
             #line 26 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 1237), Tuple.Create<System.Object, System.Int32>(ViewBag.IsDesignMode.ToString()
+, Tuple.Create(Tuple.Create("", 1212), Tuple.Create<System.Object, System.Int32>(ViewBag.IsDesignMode.ToString()
             
             #line default
             #line hidden
-, 1237), false)
+, 1212), false)
 );
 
-WriteLiteral(" />\r\n<input");
+WriteLiteral(" />\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-allow-windows-sts-login\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1337), Tuple.Create("\"", 1383)
+WriteAttribute("value", Tuple.Create(" value=\"", 1311), Tuple.Create("\"", 1357)
             
             #line 27 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"
-, Tuple.Create(Tuple.Create("", 1345), Tuple.Create<System.Object, System.Int32>(Model.AllowWindowsStsLogin.ToString()
+, Tuple.Create(Tuple.Create("", 1319), Tuple.Create<System.Object, System.Int32>(Model.AllowWindowsStsLogin.ToString()
             
             #line default
             #line hidden
-, 1345), false)
+, 1319), false)
 );
 
-WriteLiteral(" />\r\n\r\n");
+WriteLiteral(" />\n\n");
 
             
             #line 29 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml"

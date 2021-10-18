@@ -43,20 +43,20 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.HierarchicalTax
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<ul");
+WriteLiteral("\n<ul");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 132), Tuple.Create("\"", 169)
+WriteAttribute("class", Tuple.Create(" class=\"", 128), Tuple.Create("\"", 165)
             
             #line 5 "..\..\ResourcePackages\Bootstrap4\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml"
-, Tuple.Create(Tuple.Create("", 140), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 136), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 140), false)
-, Tuple.Create(Tuple.Create(" ", 155), Tuple.Create("list-unstyled", 156), true)
+, 136), false)
+, Tuple.Create(Tuple.Create(" ", 151), Tuple.Create("list-unstyled", 152), true)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 6 "..\..\ResourcePackages\Bootstrap4\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml"
@@ -72,16 +72,16 @@ WriteLiteral(">\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        <li>\r\n            <a");
+WriteLiteral("        <li>\n            <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 248), Tuple.Create("\"", 265)
+WriteAttribute("href", Tuple.Create(" href=\"", 240), Tuple.Create("\"", 257)
             
             #line 9 "..\..\ResourcePackages\Bootstrap4\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml"
-, Tuple.Create(Tuple.Create("", 255), Tuple.Create<System.Object, System.Int32>(taxon.Url
+, Tuple.Create(Tuple.Create("", 247), Tuple.Create<System.Object, System.Int32>(taxon.Url
             
             #line default
             #line hidden
-, 255), false)
+, 247), false)
 );
 
 WriteLiteral(">");
@@ -93,7 +93,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n\r\n");
+WriteLiteral("</a>\n\n");
 
             
             #line 11 "..\..\ResourcePackages\Bootstrap4\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml"
@@ -122,7 +122,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\r\n");
+WriteLiteral("</span>\n");
 
             
             #line 14 "..\..\ResourcePackages\Bootstrap4\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml"
@@ -131,7 +131,7 @@ WriteLiteral("</span>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </li>\r\n");
+WriteLiteral("        </li>\n");
 
             
             #line 16 "..\..\ResourcePackages\Bootstrap4\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml"
@@ -140,7 +140,7 @@ WriteLiteral("        </li>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</ul>\r\n");
+WriteLiteral("</ul>\n");
 
         }
     }

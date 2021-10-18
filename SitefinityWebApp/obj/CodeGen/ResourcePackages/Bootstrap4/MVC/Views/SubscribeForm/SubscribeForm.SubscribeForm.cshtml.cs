@@ -61,9 +61,9 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.SubscribeForm
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 9 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -72,7 +72,7 @@ Write(Html.Script(ScriptRef.JQuery, "top", false));
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 10 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -81,7 +81,7 @@ Write(Html.Script("//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.valida
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 11 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -90,7 +90,7 @@ Write(Html.Script("//ajax.aspnetcdn.com/ajax/mvc/4.0/jquery.validate.unobtrusive
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
             
             #line 13 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -115,19 +115,19 @@ WriteLiteral("\r\n\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("\n\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 1025), Tuple.Create("\"", 1048)
+WriteAttribute("class", Tuple.Create(" class=\"", 994), Tuple.Create("\"", 1017)
             
             #line 32 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
-, Tuple.Create(Tuple.Create("", 1033), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 1002), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 1033), false)
+, 1002), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 33 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -152,7 +152,7 @@ WriteLiteral("\t\t<h3>");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n");
+WriteLiteral("</h3>\n");
 
             
             #line 36 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -165,17 +165,17 @@ WriteLiteral("\t\t<p");
 
 WriteLiteral(" class=\"text-muted\"");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 1188), Tuple.Create("\'", 1228)
+WriteAttribute("id", Tuple.Create(" id=\'", 1152), Tuple.Create("\'", 1192)
             
             #line 37 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
-, Tuple.Create(Tuple.Create("", 1193), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("SubscribeFormInfo")
+, Tuple.Create(Tuple.Create("", 1157), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("SubscribeFormInfo")
             
             #line default
             #line hidden
-, 1193), false)
+, 1157), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("\t\t\t");
 
@@ -186,7 +186,7 @@ WriteLiteral("\t\t\t");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\t\t</p>\r\n");
+WriteLiteral("\n\t\t</p>\n");
 
             
             #line 40 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -205,7 +205,7 @@ WriteLiteral(" role=\"alert\"");
 
 WriteLiteral(" aria-live=\"assertive\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("\t\t\t\t");
 
@@ -234,7 +234,7 @@ WriteLiteral(" (");
             
             #line default
             #line hidden
-WriteLiteral(")\r\n\t\t\t</div>\r\n");
+WriteLiteral(")\n\t\t\t</div>\n");
 
             
             #line 46 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -268,7 +268,7 @@ WriteLiteral(" role=\"alert\"");
 
 WriteLiteral(" aria-live=\"assertive\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("\t\t\t\t");
 
@@ -279,7 +279,7 @@ WriteLiteral("\t\t\t\t");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\t\t\t</div>\r\n");
+WriteLiteral("\n\t\t\t</div>\n");
 
             
             #line 54 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -301,7 +301,7 @@ WriteLiteral("\t\t<div");
 
 WriteLiteral(" class=\"form-group\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("\t\t\t");
 
@@ -312,11 +312,11 @@ WriteLiteral("\t\t\t");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n\t\t\t<div");
+WriteLiteral("\n\n\t\t\t<div");
 
 WriteLiteral(" class=\"form-inline\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("\t\t\t\t");
 
@@ -327,7 +327,7 @@ WriteLiteral("\t\t\t\t");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\t\t\t\t<button");
+WriteLiteral("\n\t\t\t\t<button");
 
 WriteLiteral(" class=\"btn btn-primary ml-2\"");
 
@@ -351,7 +351,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</button>\r\n\t\t\t</div>\r\n\r\n");
+WriteLiteral("</button>\n\t\t\t</div>\n\n");
 
             
             #line 84 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -369,14 +369,14 @@ WriteLiteral("</button>\r\n\t\t\t</div>\r\n\r\n");
             #line hidden
 WriteLiteral("\t\t\t\t<div");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 2950), Tuple.Create("\'", 2999)
+WriteAttribute("id", Tuple.Create(" id=\'", 2865), Tuple.Create("\'", 2914)
             
             #line 86 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
-, Tuple.Create(Tuple.Create("", 2955), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("SubscribeFormValidatonInfo")
+, Tuple.Create(Tuple.Create("", 2870), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("SubscribeFormValidatonInfo")
             
             #line default
             #line hidden
-, 2955), false)
+, 2870), false)
 );
 
 WriteLiteral(" class=\"text-danger\"");
@@ -385,7 +385,7 @@ WriteLiteral(" role=\"alert\"");
 
 WriteLiteral(" aria-live=\"assertive\"");
 
-WriteLiteral(">\r\n\t\t\t\t\t<span");
+WriteLiteral(">\n\t\t\t\t\t<span");
 
 WriteLiteral(" class=\"form-text\"");
 
@@ -398,7 +398,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\r\n\t\t\t\t</div>\r\n");
+WriteLiteral("</span>\n\t\t\t\t</div>\n");
 
             
             #line 89 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -407,7 +407,7 @@ WriteLiteral("</span>\r\n\t\t\t\t</div>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\t\t</div>\r\n");
+WriteLiteral("\t\t</div>\n");
 
             
             #line 91 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml"
@@ -416,7 +416,7 @@ WriteLiteral("\t\t</div>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</div>\r\n");
+WriteLiteral("</div>\n");
 
         }
     }

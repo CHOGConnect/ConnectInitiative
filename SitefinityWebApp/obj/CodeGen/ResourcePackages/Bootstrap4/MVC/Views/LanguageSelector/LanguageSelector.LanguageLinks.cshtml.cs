@@ -93,23 +93,23 @@ WriteTo(__razor_helper_writer, Html.Raw("selected"));
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 237), Tuple.Create("\"", 260)
+WriteAttribute("class", Tuple.Create(" class=\"", 231), Tuple.Create("\"", 254)
             
             #line 7 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
-, Tuple.Create(Tuple.Create("", 245), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 239), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 245), false)
+, 239), false)
 );
 
-WriteLiteral(">\r\n    <ul");
+WriteLiteral(">\n    <ul");
 
 WriteLiteral(" class=\"sf-lang-selector list-inline\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 9 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
@@ -129,7 +129,7 @@ WriteLiteral("            <li");
 
 WriteLiteral(" class=\"list-inline-item\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 12 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
@@ -151,14 +151,14 @@ WriteLiteral(" href=\"\"");
 
 WriteLiteral(" onclick=\"return false;\"");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 540), Tuple.Create("\"", 575)
+WriteAttribute("class", Tuple.Create(" class=\"", 527), Tuple.Create("\"", 562)
             
             #line 14 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
-, Tuple.Create(Tuple.Create("", 548), Tuple.Create<System.Object, System.Int32>(GetClass(language.Culture)
+, Tuple.Create(Tuple.Create("", 535), Tuple.Create<System.Object, System.Int32>(GetClass(language.Culture)
             
             #line default
             #line hidden
-, 548), false)
+, 535), false)
 );
 
 WriteLiteral(">");
@@ -170,7 +170,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n");
+WriteLiteral("</a>\n");
 
             
             #line 15 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
@@ -185,28 +185,28 @@ WriteLiteral("\t                <a");
 
 WriteLiteral(" href=\"\"");
 
-WriteAttribute("onclick", Tuple.Create(" onclick=\"", 691), Tuple.Create("\"", 745)
-, Tuple.Create(Tuple.Create("", 701), Tuple.Create("openLink(\'", 701), true)
+WriteAttribute("onclick", Tuple.Create(" onclick=\"", 674), Tuple.Create("\"", 728)
+, Tuple.Create(Tuple.Create("", 684), Tuple.Create("openLink(\'", 684), true)
             
             #line 18 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
-, Tuple.Create(Tuple.Create("", 711), Tuple.Create<System.Object, System.Int32>(language.Culture
+, Tuple.Create(Tuple.Create("", 694), Tuple.Create<System.Object, System.Int32>(language.Culture
             
             #line default
             #line hidden
-, 711), false)
-, Tuple.Create(Tuple.Create("", 728), Tuple.Create("\');", 728), true)
-, Tuple.Create(Tuple.Create(" ", 731), Tuple.Create("return", 732), true)
-, Tuple.Create(Tuple.Create(" ", 738), Tuple.Create("false;", 739), true)
+, 694), false)
+, Tuple.Create(Tuple.Create("", 711), Tuple.Create("\');", 711), true)
+, Tuple.Create(Tuple.Create(" ", 714), Tuple.Create("return", 715), true)
+, Tuple.Create(Tuple.Create(" ", 721), Tuple.Create("false;", 722), true)
 );
 
-WriteAttribute("class", Tuple.Create(" class=\"", 746), Tuple.Create("\"", 781)
+WriteAttribute("class", Tuple.Create(" class=\"", 729), Tuple.Create("\"", 764)
             
             #line 18 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
-              , Tuple.Create(Tuple.Create("", 754), Tuple.Create<System.Object, System.Int32>(GetClass(language.Culture)
+              , Tuple.Create(Tuple.Create("", 737), Tuple.Create<System.Object, System.Int32>(GetClass(language.Culture)
             
             #line default
             #line hidden
-, 754), false)
+, 737), false)
 );
 
 WriteLiteral(">");
@@ -218,7 +218,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n");
+WriteLiteral("</a>\n");
 
             
             #line 19 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
@@ -227,7 +227,7 @@ WriteLiteral("</a>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("            </li>\r\n");
+WriteLiteral("            </li>\n");
 
             
             #line 21 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"
@@ -236,11 +236,11 @@ WriteLiteral("            </li>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("    </ul>\r\n</div>\r\n\r\n");
+WriteLiteral("    </ul>\n</div>\n\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 34 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml"

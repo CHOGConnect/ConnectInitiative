@@ -66,7 +66,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.TextField
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 9 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
@@ -75,7 +75,7 @@ Write(Html.Script(ScriptRef.JQuery, "top", false));
             
             #line default
             #line hidden
-WriteLiteral("\r\n<!-- InputCssClass class variable -->\r\n\r\n");
+WriteLiteral("\n<!-- InputCssClass class variable -->\n\n");
 
             
             #line 12 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
@@ -93,109 +93,109 @@ WriteLiteral("\r\n<!-- InputCssClass class variable -->\r\n\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("\n\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 1143), Tuple.Create("\"", 1177)
+WriteAttribute("class", Tuple.Create(" class=\"", 1120), Tuple.Create("\"", 1154)
             
             #line 24 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1151), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 1128), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 1151), false)
-, Tuple.Create(Tuple.Create(" ", 1166), Tuple.Create("form-group", 1167), true)
+, 1128), false)
+, Tuple.Create(Tuple.Create(" ", 1143), Tuple.Create("form-group", 1144), true)
 );
 
 WriteLiteral(" data-sf-role=\"text-field-container\"");
 
-WriteLiteral(">\r\n    <input");
+WriteLiteral(">\n    <input");
 
 WriteLiteral(" data-sf-role=\"violation-restrictions\"");
 
 WriteLiteral(" type=\"hidden\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 1279), Tuple.Create("\'", 1392)
-, Tuple.Create(Tuple.Create("", 1287), Tuple.Create("{\"maxLength\":\"", 1287), true)
+WriteAttribute("value", Tuple.Create(" value=\'", 1255), Tuple.Create("\'", 1368)
+, Tuple.Create(Tuple.Create("", 1263), Tuple.Create("{\"maxLength\":\"", 1263), true)
             
             #line 25 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-    , Tuple.Create(Tuple.Create("", 1301), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.MaxLength
+    , Tuple.Create(Tuple.Create("", 1277), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.MaxLength
             
             #line default
             #line hidden
-, 1301), false)
-, Tuple.Create(Tuple.Create("", 1337), Tuple.Create("\",", 1337), true)
-, Tuple.Create(Tuple.Create(" ", 1339), Tuple.Create("\"minLength\":", 1340), true)
-, Tuple.Create(Tuple.Create(" ", 1352), Tuple.Create("\"", 1353), true)
+, 1277), false)
+, Tuple.Create(Tuple.Create("", 1313), Tuple.Create("\",", 1313), true)
+, Tuple.Create(Tuple.Create(" ", 1315), Tuple.Create("\"minLength\":", 1316), true)
+, Tuple.Create(Tuple.Create(" ", 1328), Tuple.Create("\"", 1329), true)
             
             #line 25 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-                                                         , Tuple.Create(Tuple.Create("", 1354), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.MinLength
+                                                         , Tuple.Create(Tuple.Create("", 1330), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.MinLength
             
             #line default
             #line hidden
-, 1354), false)
-, Tuple.Create(Tuple.Create("", 1390), Tuple.Create("\"}", 1390), true)
+, 1330), false)
+, Tuple.Create(Tuple.Create("", 1366), Tuple.Create("\"}", 1366), true)
 );
 
-WriteLiteral(" />\r\n    <input");
+WriteLiteral(" />\n    <input");
 
 WriteLiteral(" data-sf-role=\"violation-messages\"");
 
 WriteLiteral(" type=\"hidden\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 1456), Tuple.Create("\'", 1736)
-, Tuple.Create(Tuple.Create("", 1464), Tuple.Create("{\"maxLength\":\"", 1464), true)
+WriteAttribute("value", Tuple.Create(" value=\'", 1431), Tuple.Create("\'", 1711)
+, Tuple.Create(Tuple.Create("", 1439), Tuple.Create("{\"maxLength\":\"", 1439), true)
             
             #line 26 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1478), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.MaxLengthViolationMessage
+, Tuple.Create(Tuple.Create("", 1453), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.MaxLengthViolationMessage
             
             #line default
             #line hidden
-, 1478), false)
-, Tuple.Create(Tuple.Create("", 1530), Tuple.Create("\",", 1530), true)
-, Tuple.Create(Tuple.Create(" ", 1532), Tuple.Create("\"required\":", 1533), true)
-, Tuple.Create(Tuple.Create(" ", 1544), Tuple.Create("\"", 1545), true)
+, 1453), false)
+, Tuple.Create(Tuple.Create("", 1505), Tuple.Create("\",", 1505), true)
+, Tuple.Create(Tuple.Create(" ", 1507), Tuple.Create("\"required\":", 1508), true)
+, Tuple.Create(Tuple.Create(" ", 1519), Tuple.Create("\"", 1520), true)
             
             #line 26 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-                                                                    , Tuple.Create(Tuple.Create("", 1546), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.RequiredViolationMessage
+                                                                    , Tuple.Create(Tuple.Create("", 1521), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.RequiredViolationMessage
             
             #line default
             #line hidden
-, 1546), false)
-, Tuple.Create(Tuple.Create("", 1597), Tuple.Create("\",", 1597), true)
-, Tuple.Create(Tuple.Create(" ", 1599), Tuple.Create("\"invalid\":", 1600), true)
-, Tuple.Create(Tuple.Create(" ", 1610), Tuple.Create("\"", 1611), true)
+, 1521), false)
+, Tuple.Create(Tuple.Create("", 1572), Tuple.Create("\",", 1572), true)
+, Tuple.Create(Tuple.Create(" ", 1574), Tuple.Create("\"invalid\":", 1575), true)
+, Tuple.Create(Tuple.Create(" ", 1585), Tuple.Create("\"", 1586), true)
             
             #line 26 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-                                                                                                                                      , Tuple.Create(Tuple.Create("", 1612), Tuple.Create<System.Object, System.Int32>(Html.Resource("InvalidEntryMessage")
+                                                                                                                                      , Tuple.Create(Tuple.Create("", 1587), Tuple.Create<System.Object, System.Int32>(Html.Resource("InvalidEntryMessage")
             
             #line default
             #line hidden
-, 1612), false)
-, Tuple.Create(Tuple.Create("", 1649), Tuple.Create("\",", 1649), true)
-, Tuple.Create(Tuple.Create(" ", 1651), Tuple.Create("\"regularExpression\":", 1652), true)
-, Tuple.Create(Tuple.Create(" ", 1672), Tuple.Create("\"", 1673), true)
+, 1587), false)
+, Tuple.Create(Tuple.Create("", 1624), Tuple.Create("\",", 1624), true)
+, Tuple.Create(Tuple.Create(" ", 1626), Tuple.Create("\"regularExpression\":", 1627), true)
+, Tuple.Create(Tuple.Create(" ", 1647), Tuple.Create("\"", 1648), true)
             
             #line 26 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-                                                                                                                                                                                                    , Tuple.Create(Tuple.Create("", 1674), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.RegularExpressionViolationMessage
+                                                                                                                                                                                                    , Tuple.Create(Tuple.Create("", 1649), Tuple.Create<System.Object, System.Int32>(Model.ValidatorDefinition.RegularExpressionViolationMessage
             
             #line default
             #line hidden
-, 1674), false)
-, Tuple.Create(Tuple.Create("", 1734), Tuple.Create("\"}", 1734), true)
+, 1649), false)
+, Tuple.Create(Tuple.Create("", 1709), Tuple.Create("\"}", 1709), true)
 );
 
-WriteLiteral(" />\r\n\r\n    <label");
+WriteLiteral(" />\n\n    <label");
 
 WriteLiteral(" class=\"h6\"");
 
-WriteAttribute("for", Tuple.Create(" for=\'", 1765), Tuple.Create("\'", 1796)
+WriteAttribute("for", Tuple.Create(" for=\'", 1738), Tuple.Create("\'", 1769)
             
             #line 28 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1771), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("Textbox")
+, Tuple.Create(Tuple.Create("", 1744), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("Textbox")
             
             #line default
             #line hidden
-, 1771), false)
+, 1744), false)
 );
 
 WriteLiteral(">");
@@ -207,81 +207,81 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</label>\r\n    <input");
+WriteLiteral("</label>\n    <input");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 1840), Tuple.Create("\'", 1870)
+WriteAttribute("id", Tuple.Create(" id=\'", 1812), Tuple.Create("\'", 1842)
             
             #line 29 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1845), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("Textbox")
+, Tuple.Create(Tuple.Create("", 1817), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("Textbox")
             
             #line default
             #line hidden
-, 1845), false)
+, 1817), false)
 );
 
-WriteAttribute("type", Tuple.Create("\r\n           type=\"", 1871), Tuple.Create("\"", 1924)
+WriteAttribute("type", Tuple.Create("\n           type=\"", 1843), Tuple.Create("\"", 1895)
             
             #line 30 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1890), Tuple.Create<System.Object, System.Int32>(Model.InputType.ToHtmlInputType()
+, Tuple.Create(Tuple.Create("", 1861), Tuple.Create<System.Object, System.Int32>(Model.InputType.ToHtmlInputType()
             
             #line default
             #line hidden
-, 1890), false)
+, 1861), false)
 );
 
-WriteAttribute("class", Tuple.Create("\r\n           class=\"", 1925), Tuple.Create("\"", 1959)
+WriteAttribute("class", Tuple.Create("\n           class=\"", 1896), Tuple.Create("\"", 1929)
             
             #line 31 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1945), Tuple.Create<System.Object, System.Int32>(inputCssClass
+, Tuple.Create(Tuple.Create("", 1915), Tuple.Create<System.Object, System.Int32>(inputCssClass
             
             #line default
             #line hidden
-, 1945), false)
+, 1915), false)
 );
 
-WriteAttribute("name", Tuple.Create("\r\n           name=\"", 1960), Tuple.Create("\"", 2005)
+WriteAttribute("name", Tuple.Create("\n           name=\"", 1930), Tuple.Create("\"", 1974)
             
             #line 32 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1979), Tuple.Create<System.Object, System.Int32>(Model.MetaField.FieldName
+, Tuple.Create(Tuple.Create("", 1948), Tuple.Create<System.Object, System.Int32>(Model.MetaField.FieldName
             
             #line default
             #line hidden
-, 1979), false)
+, 1948), false)
 );
 
-WriteAttribute("placeholder", Tuple.Create("\r\n           placeholder=\"", 2006), Tuple.Create("\"", 2054)
+WriteAttribute("placeholder", Tuple.Create("\n           placeholder=\"", 1975), Tuple.Create("\"", 2022)
             
             #line 33 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2032), Tuple.Create<System.Object, System.Int32>(Model.PlaceholderText
+, Tuple.Create(Tuple.Create("", 2000), Tuple.Create<System.Object, System.Int32>(Model.PlaceholderText
             
             #line default
             #line hidden
-, 2032), false)
+, 2000), false)
 );
 
-WriteAttribute("value", Tuple.Create("\r\n           value=\"", 2055), Tuple.Create("\"", 2087)
+WriteAttribute("value", Tuple.Create("\n           value=\"", 2023), Tuple.Create("\"", 2054)
             
             #line 34 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2075), Tuple.Create<System.Object, System.Int32>(Model.Value
+, Tuple.Create(Tuple.Create("", 2042), Tuple.Create<System.Object, System.Int32>(Model.Value
             
             #line default
             #line hidden
-, 2075), false)
+, 2042), false)
 );
 
-WriteAttribute("aria-required", Tuple.Create("\r\n           aria-required=\"", 2088), Tuple.Create("\"", 2127)
+WriteAttribute("aria-required", Tuple.Create("\n           aria-required=\"", 2055), Tuple.Create("\"", 2093)
             
             #line 35 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2116), Tuple.Create<System.Object, System.Int32>(isRequired
+, Tuple.Create(Tuple.Create("", 2082), Tuple.Create<System.Object, System.Int32>(isRequired
             
             #line default
             #line hidden
-, 2116), false)
+, 2082), false)
 );
 
-WriteLiteral("\r\n           data-sf-role=\"text-field-input\"");
+WriteLiteral("\n           data-sf-role=\"text-field-input\"");
 
-WriteLiteral("\r\n           ");
+WriteLiteral("\n           ");
 
             
             #line 37 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
@@ -290,7 +290,7 @@ WriteLiteral("\r\n           ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 38 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
@@ -355,7 +355,7 @@ WriteLiteral("  ");
             
             #line default
             #line hidden
-WriteLiteral(" />\r\n");
+WriteLiteral(" />\n");
 
             
             #line 39 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
@@ -373,14 +373,14 @@ WriteLiteral(" />\r\n");
             #line hidden
 WriteLiteral("<p");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 2487), Tuple.Create("\'", 2521)
+WriteAttribute("id", Tuple.Create(" id=\'", 2447), Tuple.Create("\'", 2481)
             
             #line 41 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2492), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("TextboxInfo")
+, Tuple.Create(Tuple.Create("", 2452), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("TextboxInfo")
             
             #line default
             #line hidden
-, 2492), false)
+, 2452), false)
 );
 
 WriteLiteral(" class=\"text-muted\"");
@@ -403,16 +403,16 @@ WriteLiteral("</p>");
             
             #line default
             #line hidden
-WriteLiteral("\r\n    <div");
+WriteLiteral("\n    <div");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 2587), Tuple.Create("\'", 2629)
+WriteAttribute("id", Tuple.Create(" id=\'", 2545), Tuple.Create("\'", 2587)
             
             #line 43 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2592), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("TextboxErrorMessage")
+, Tuple.Create(Tuple.Create("", 2550), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("TextboxErrorMessage")
             
             #line default
             #line hidden
-, 2592), false)
+, 2550), false)
 );
 
 WriteLiteral(" data-sf-role=\"error-message\"");
@@ -423,7 +423,7 @@ WriteLiteral(" aria-live=\"assertive\"");
 
 WriteLiteral(" class=\"text-danger\"");
 
-WriteLiteral("></div>\r\n</div>\r\n\r\n");
+WriteLiteral("></div>\n</div>\n\n");
 
             
             #line 46 "..\..\ResourcePackages\Bootstrap4\MVC\Views\TextField\Write.Default.cshtml"
@@ -432,7 +432,7 @@ Write(Html.Script(Url.WidgetContent("Mvc/Scripts/Form/form.all.js"), "bottom", f
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
         }
     }

@@ -1,140 +1,28 @@
 ----------------------------------------
-Timestamp: 10/15/2021 7:28:46 PM
+Timestamp: 9/9/2021 6:20:27 PM
 
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:28:48 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.). See the error log for more details.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 10/15/2021 7:28:49 PM
+Timestamp: 9/9/2021 6:21:41 PM
 
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:28:50 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.). See the error log for more details.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 10/15/2021 7:31:26 PM
+Timestamp: 9/9/2021 6:22:55 PM
 
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:31:28 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.). See the error log for more details.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 10/15/2021 7:31:29 PM
+Timestamp: 9/9/2021 6:24:08 PM
 
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:31:30 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:32:31 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:32:32 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:32:34 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:32:35 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:33:23 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:33:24 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:33:25 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:33:26 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:34:56 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:34:57 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:34:58 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 10/15/2021 7:34:59 PM
-
-Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: Cannot open server 'chogconnect' requested by the login. Client with IP address '184.17.66.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.. See the error log for more details.
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.). See the error log for more details.
 
 
 ----------------------------------------

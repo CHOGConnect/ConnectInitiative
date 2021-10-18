@@ -74,24 +74,24 @@ return new System.Web.WebPages.HelperResult(__razor_helper_writer => {
 #line hidden
 WriteLiteralTo(__razor_helper_writer, "    <option");
 
-WriteAttributeTo(__razor_helper_writer, "class", Tuple.Create(" class=\"", 786), Tuple.Create("\"", 809)
+WriteAttributeTo(__razor_helper_writer, "class", Tuple.Create(" class=\"", 761), Tuple.Create("\"", 784)
 
 #line 26 "..\..MVC\Views\Navigation\Dropdown.cshtml"
-, Tuple.Create(Tuple.Create("", 794), Tuple.Create<System.Object, System.Int32>(GetClass(node)
+, Tuple.Create(Tuple.Create("", 769), Tuple.Create<System.Object, System.Int32>(GetClass(node)
 
 #line default
 #line hidden
-, 794), false)
+, 769), false)
 );
 
-WriteAttributeTo(__razor_helper_writer, "value", Tuple.Create(" value=\"", 810), Tuple.Create("\"", 827)
+WriteAttributeTo(__razor_helper_writer, "value", Tuple.Create(" value=\"", 785), Tuple.Create("\"", 802)
 
 #line 26 "..\..MVC\Views\Navigation\Dropdown.cshtml"
-, Tuple.Create(Tuple.Create("", 818), Tuple.Create<System.Object, System.Int32>(node.Url
+, Tuple.Create(Tuple.Create("", 793), Tuple.Create<System.Object, System.Int32>(node.Url
 
 #line default
 #line hidden
-, 818), false)
+, 793), false)
 );
 
 WriteLiteralTo(__razor_helper_writer, " ");
@@ -112,7 +112,7 @@ WriteLiteralTo(__razor_helper_writer, ">");
 
 #line default
 #line hidden
-WriteLiteralTo(__razor_helper_writer, "</option>\r\n");
+WriteLiteralTo(__razor_helper_writer, "</option>\n");
 
 
 #line 27 "..\..MVC\Views\Navigation\Dropdown.cshtml"
@@ -204,11 +204,11 @@ WriteTo(__razor_helper_writer, Html.HtmlSanitize("active"));
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<select");
+WriteLiteral("\n<select");
 
 WriteLiteral(" class=\"nav-select form-control\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 8 "..\..MVC\Views\Navigation\Dropdown.cshtml"
@@ -239,17 +239,17 @@ WriteLiteral(">\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</select>\r\n\r\n");
+WriteLiteral("</select>\n\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 48 "..\..MVC\Views\Navigation\Dropdown.cshtml"
