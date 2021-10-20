@@ -1,0 +1,14 @@
+----------------------------------------
+Timestamp: 10/20/2021 1:21:04 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.IdentityServer.Data.TransientDataCleanupTask'. Start time: 10/20/2021 1:21:03 PM. End time: 10/20/2021 1:21:04 PM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/20/2021 1:21:15 PM
+
+Message: Scheduler: Task executed: 'pavliks.PortalConnector.ScheduledTasks.LicenseCheckScheduledTask'. Start time: 10/20/2021 1:21:14 PM. End time: 10/20/2021 1:21:15 PM. Task data: ''
+
+
+----------------------------------------
