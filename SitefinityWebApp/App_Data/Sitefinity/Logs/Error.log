@@ -60,3 +60,34 @@ Win32 ThreadId:18796
 
 Extended Properties: 
 ----------------------------------------
+----------------------------------------
+ActivityId: c37bc794-dd25-4816-9688-aac2c4477580
+
+Timestamp: 10/20/2021 2:04:43 PM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: CGM-CIO
+
+App Domain: /LM/W3SVC/2/ROOT-1-132792122130007707
+
+ProcessId: 24792
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:19220
+
+Extended Properties: 
+----------------------------------------

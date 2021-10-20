@@ -582,3 +582,5 @@ C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\obj\Release\S
 C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\obj\Release\SitefinityWebApp.csproj.CopyComplete
 C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\obj\Release\SitefinityWebApp.dll
 C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\obj\Release\SitefinityWebApp.pdb
+C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\bin\SitefinityWebApp.ResourcePackages.Connect.dll
+C:\Users\JRRobbins\source\repos\ConnectInitiative\SitefinityWebApp\bin\SitefinityWebApp.ResourcePackages.Connect.pdb
